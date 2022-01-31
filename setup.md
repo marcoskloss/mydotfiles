@@ -157,6 +157,16 @@ install **beekeeper**
 
 install **git**
 
+`sudo apt update`
+
+`sudo apt install git`
+
+`git config --global user.name "Your Name"`
+
+`git config --global user.email "youremail@domain.com"`
+
+setup **git ssh**
+
 ---
 
 setup **Gnome appearance**
