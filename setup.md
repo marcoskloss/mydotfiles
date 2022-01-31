@@ -156,16 +156,20 @@ install **beekeeper**
 ---
 
 install **git**
-
-`sudo apt update`
-
-`sudo apt install git`
-
-`git config --global user.name "Your Name"`
-
-`git config --global user.email "youremail@domain.com"`
+```bash
+sudo apt update
+sudo apt install git
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+```
 
 setup **git ssh**
+```bash
+ssh-keygen -o -t rsa -C "your@email.com"
+$ cat ~/.ssh/id_rsa.pub
+# go to https://github.com/settings/keys and configure
+```
+
 
 ---
 
@@ -188,19 +192,15 @@ install **java**
 ---
 
 install **node lts**
+```bash
 
-`sudo apt-get udpate`
-
-`sudo apt install curl`
-
-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
-
-`source ~/.bashrc`
-
-`nvm install --lts`
-
-`nvm use --lts`
-
+sudo apt-get udpate
+sudo apt install curl
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+nvm use --lts
+```
 ---
 
 install **yarn**
