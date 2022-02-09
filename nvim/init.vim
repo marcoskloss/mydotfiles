@@ -5,6 +5,13 @@ scriptencoding utf-8
 " stop loading config if it's on tiny or small
 if !1 | finish | endif
 
+" set neoformat to use prettier from local node_modules folder
+let g:neoformat_try_node_exe = 1
+" format on save
+autocmd BufWritePre *.js Neoformat 
+
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier'] 
+
 set nocompatible
 set number
 syntax enable
@@ -117,9 +124,9 @@ if exists("&termguicolors") && exists("&winblend")
   set pumblend=5
   set background=dark
   " Use NeoSolarized
-  let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
-  colorscheme NeoSolarized
+  "let g:neosolarized_termtrans=1
+  "runtime ./colors/NeoSolarized.vim
+  colorscheme nord
 endif
 
 set encoding=utf-8
@@ -298,3 +305,4 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 autocmd VimEnter * NERDTree
+
