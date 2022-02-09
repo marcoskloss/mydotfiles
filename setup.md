@@ -191,6 +191,25 @@ install **docker & docker-compose**
 
 install **java**
 
+```
+# download and intall java jdk
+# https://www.oracle.com/java/technologies/downloads/
+
+# {JAVA_JDK} == jdk version (eg: jdk-17)
+
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/{JAVA_JDK}/bin/java 1
+sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/{JAVA_JDK}/bin/javac 1
+java --version
+
+# setup JAVA_HOME
+vi ~/.zshrc
+# add this line
+export JAVA_HOME="/usr/lib/jvm/{JAVA_JDK}
+
+source ~/.szhrc
+
+```
+
 ---
 
 install **node lts**
