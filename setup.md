@@ -255,15 +255,14 @@ source ~/.bashrc
 nvm install --lts
 nvm use --lts
 ```
+--- 
+install brew
 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 ---
-
-install **yarn**
-
----
-
-install **Android Emulator**
-
----
-
-install **React Native**
+install difftastic
+```bash
+brew install difftastic
+```
