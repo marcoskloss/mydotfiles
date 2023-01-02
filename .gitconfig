@@ -15,27 +15,27 @@
 	difftool = true
 
 [color]
-  diff = auto
-  status = auto
-  branch = auto
-  interactive = auto
-  ui = true
-  pager = true
+  	diff = auto
+  	status = auto
+  	branch = auto
+  	interactive = auto
+  	ui = true
+  	pager = true
 
 [color "branch"]
-  current = yellow reverse
-  remote  = green
+  	current = yellow reverse
+  	remote  = green
 
 [color "diff"]
-  meta = blue
-  frag = magenta
-  old  = red
-  new  = green
+	meta = blue
+	frag = magenta
+	old  = red
+	new  = green
 
 [color "status"]
-  added = green
-  changed = yellow
-  untracked = magenta
+  	added = green
+  	changed = yellow
+  	untracked = magenta
 
 [alias]
 	unstage = reset
@@ -45,6 +45,6 @@
 	c = commit
 	co = checkout
 	d = difftool
-	l = log --oneline --decorate
+	l =  l = log --pretty='format:%C(Yellow)%h %C(reset)%ad (%C(green)%cr%C(reset))%n%C(red)$ %C(cyan)%an: %C(reset)%s%n' --date=short
 	lg = log --oneline --decorate --graph --all
 	dft = difftool
