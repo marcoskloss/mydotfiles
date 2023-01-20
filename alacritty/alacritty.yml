@@ -1,0 +1,11 @@
+import:
+  - ~/.alacritty-colorscheme/themes/rose-pine.yaml
+  #- ~/.alacritty-colorscheme/themes/iterm.yaml
+
+font:
+  size: 11.5
+  offset:
+    x: 0
+    y: 2
+  normal:
+    family: Iosevka
