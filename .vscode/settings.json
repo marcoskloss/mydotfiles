@@ -1,0 +1,73 @@
+{
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.semanticHighlighting.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 23,
+  "editor.fontWeight": "400",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": true,
+  "editor.suggestSelection": "first",
+  "workbench.colorCustomizations": {},
+  "markdown.preview.breaks": true,
+  "gitlens.defaultDateShortFormat": "DD/MM/YYYY",
+  "gitlens.defaultDateFormat": "DD/MM/YYYY",
+  "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.autoReveal": false,
+  "todo-tree.general.tags": ["TODO", "HACK", "FIXME", "BUG"],
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.renderSideBySide": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Rosé Pine",
+  "editor.lineNumbers": "relative",
+  "editor.tokenColorCustomizations": {
+    "[Rosé Pine*]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "entity.other.attribute-name",
+            "entity.other.inherited-class",
+            "support.function",
+            "variable",
+            "meta.directive.vue"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  }
+}
+

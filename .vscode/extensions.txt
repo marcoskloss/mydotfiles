@@ -1,0 +1,11 @@
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+Gruntfuggly.todo-tree
+maptz.camelcasenavigation
+ms-vsliveshare.vsliveshare
+mvllow.rose-pine
+PKief.material-icon-theme
+styled-components.vscode-styled-components
+usernamehw.errorlens
+

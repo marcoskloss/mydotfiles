@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+o",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "end",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "home",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "explorer.newFolder"
+  }
+]
+
