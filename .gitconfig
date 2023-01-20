@@ -1,3 +1,18 @@
+[includeIf "gitdir:~/work/develcode/"]
+	path = ~/work/develcode/.gitconfig.develcode
+
+[includeIf "gitdir:~/work/bitbucket/"]
+	path = ~/work/bitbucket/.gitconfig.bitbucket
+
+[includeIf "gitdir:~/work/rd/"]
+	path = ~/work/rd/.gitconfig.rd
+
+[includeIf "gitdir:~/work/rd/git-cloud/"]
+	path = ~/work/rd/git-cloud/.gitconfig.rd
+	
+[includeIf "gitdir:~/dev/"]
+	path = ~/dev/.gitconfig.pers
+
 [core]
 	excludesFile = ~/.gitignore
 	editor="vim"
@@ -15,27 +30,27 @@
 	difftool = true
 
 [color]
-  	diff = auto
-  	status = auto
-  	branch = auto
-  	interactive = auto
-  	ui = true
-  	pager = true
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
 
 [color "branch"]
-  	current = yellow reverse
-  	remote  = green
+  current = yellow reverse
+  remote  = green
 
 [color "diff"]
-	meta = blue
-	frag = magenta
-	old  = red
-	new  = green
+  meta = blue
+  frag = magenta
+  old  = red
+  new  = green
 
 [color "status"]
-  	added = green
-  	changed = yellow
-  	untracked = magenta
+  added = green
+  changed = yellow
+  untracked = magenta
 
 [alias]
 	unstage = reset
@@ -45,6 +60,7 @@
 	c = commit
 	co = checkout
 	d = difftool
-	l =  l = log --pretty='format:%C(Yellow)%h %C(reset)%ad (%C(green)%cr%C(reset))%n%C(red)$ %C(cyan)%an: %C(reset)%s%n' --date=short
-	lg = log --oneline --decorate --graph --all
+	l = log --pretty='format:%C(Yellow)%h %C(reset)%ad (%C(green)%cr%C(reset))%n%C(red)$ %C(cyan)%an: %C(reset)%s%n' --date=short
+	lg = log --oneline --decorate --graph --all --date=local
 	dft = difftool
+
