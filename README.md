@@ -5,6 +5,7 @@
 - neovim
 - tmux
 - alacritty
+  - alacritty/alacritty-theme
 - insomnia
 - git
   - difftastic
