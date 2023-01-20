@@ -1,0 +1,12 @@
+# pkgconfig
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig
+
+# alacritty completions
+source /home/mkloss/.local/share/alacritty/extra/completions/alacritty.bash
+
+# print alacritty usage
+echo "lacritty usage"
+echo "VI mode: Ctrl+Shift+Space"
+echo "Search forward: Ctrl+Shift+f"
+echo "Search backward: Ctrl+Shift+b"
+echo ""
