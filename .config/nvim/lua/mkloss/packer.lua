@@ -15,13 +15,10 @@ return require('packer').startup(function(use)
 	}
 
 	-- color theme
-	use({
-		'rose-pine/neovim',
-		as = 'rose-pine',
-		config = function()
-			vim.cmd('colorscheme rose-pine')
-		end
-	})
+  use('arcticicestudio/nord-vim')
+  
+  -- git blame
+  use('APZelos/blamer.nvim')
 
 	-- treesitter
 	use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
@@ -61,6 +58,9 @@ return require('packer').startup(function(use)
 	}
 
 	use('theprimeagen/vim-be-good')
+
+  -- status line
+  use 'feline-nvim/feline.nvim'
 
 end)
 
